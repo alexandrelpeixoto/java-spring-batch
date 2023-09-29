@@ -1,4 +1,4 @@
-package br.com.sumus.concept.invoice.process;
+package example.aws.batch.service;
 
 import javax.annotation.PostConstruct;
 
@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.stereotype.Service;
 
-import br.com.sumus.concept.invoice.process.params.ApplicationParams;
+import example.aws.batch.params.ApplicationParams;
 
 @Service
 public class ApplicationService {
@@ -35,6 +35,8 @@ public class ApplicationService {
 	 */
 	public void execute() throws Exception {
 
+		
+		System.out.println("App execute ");
 		ApplicationParams params = null;
 		
 		try {

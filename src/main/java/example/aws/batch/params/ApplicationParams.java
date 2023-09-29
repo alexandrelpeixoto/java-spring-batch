@@ -1,4 +1,4 @@
-	package br.com.sumus.concept.invoice.process.params;
+	package example.aws.batch.params;
 
 import org.springframework.boot.ApplicationArguments;
 

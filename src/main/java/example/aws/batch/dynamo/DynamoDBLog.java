@@ -1,4 +1,4 @@
-package br.com.sumus.concept.dynamo;
+package example.aws.batch.dynamo;
 
 import java.util.Date;
 
